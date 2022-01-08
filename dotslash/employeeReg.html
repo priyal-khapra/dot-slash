@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="employeeReg.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="nav">
+    <p>Go back to <a href="main.html">home </a>page</p>
+    </div>
+    <!--  -->
+<div class="employee">
+<h1> Enter the details of the new Employee: </h1>
+<form>
+    <label>Enter full name:</label>
+    <br>
+    <input type="text" name="full_name" required="true" placeholder="Enter full name">
+    <br>
+    <br>
+    <label>Upload Photograph:</label>
+    <br>
+    <input type="file" accept="image/*">
+    <br>
+    <br>
+    <label>Gender:</label>
+    <br>
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Other
+    <br>
+    <br>
+    <label>Age:</label>
+    <br>
+    <input type="number" name="age" placeholder="Enter age in number" required>
+    <br>
+    <br>
+    <label>Choose a category for their job:</label>
+    <br>
+    <select id="category" name="category">
+            <option value = "first"> Select
+</option>
+<option value="cleaning">Cleaning</option>
+<option value="home_repair">Home Repair</option>
+<option value="laundry">Laundry</option>
+<option value="tailoring">Tailoring</option>
+<option value="carpenter">carpenter</option>
+<option value="gardening">Gardening</option>
+<option value="pool_services">Pool Services</option>
+<option value="packers_movers">Packer and movers</option>
+</select>
+<input type="submit" value="Submit Details" onclick="alert('new employee has been registered')">
+</div>
+    </body>
+
+</html>
