@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efefef;
+}
+
+.box-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-container #box {
+    height: 525px;
+    width: 300px;
+    margin: 20px 40px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    border: 1px solid #ffffff;
+}
+
+.box-container #box:hover {
+    border: 1px solid #3c52b698;
+}
+
+
+/* .box-container #box::before,
+.box-container #box::after {
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    opacity: .5;
+} */
+
+
+/* .box-container #box::before {
+    background: white;
+    bottom: -10%;
+    left: 80%;
+} */
+
+
+/* .box-container #box::before {
+    background: #3c53b6;
+    bottom: -10%;
+    left: 80%;
+} */
+
+.box-container #box .title {
+    margin: 30px 0;
+    font-size: 26px;
+    font-family: 'Nunito';
+    color: black;
+}
+
+.box-container #box .price {
+    height: 160px;
+    width: 160px;
+    color: white;
+    background: #3c53b6;
+    padding: 0 auto;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-family: 'Nunito';
+}
+
+.box-container #box .price .currency {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+.box-container #box .price .amount {
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+.box-container #box ul li {
+    text-align: left;
+    padding-right: 45px;
+    font-family: 'Nunito', serif;
+    color: black;
+    list-style: none;
+    font-family: monospace;
+    font-size: 120%;
+}
+
+.box-container #box ul li i {
+    color: #3c53b6;
+    margin: 5px;
+}
+
+.box-container #box button {
+    outline: none;
+    border-radius: 4px;
+    background: none;
+    color: #efefef;
+    background-color: #3c53b6;
+    font-family: 'Nunito';
+    border: none;
+    font-size: 12px;
+    padding: 8px 25px;
+    margin-top: 4%;
+    cursor: pointer;
+}
+
+
+/* .box-container #box button:hover {
+    border: 2px #3c53b6;
+    color: white;
+    background: #3c53b6;
+} */
+
+.box-container .box_blue {
+    background: #efefef;
+}
+
+.box-container .box_yellow {
+    /* background: rgb(249, 255, 198); */
+    background: #efefef;
+}
+
+.box-container .box_red {
+    /* background: rgba(255, 127, 80, 0.219); */
+    background: #efefef;
+}

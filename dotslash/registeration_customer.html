@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="registeration_customer.css" rel="stylesheet">
+    <title>registeration</title>
+</head>
+<body>
+    <div class="nav">
+        <p>Go back to <a href="main.html">home </a>page</p>
+        </div>
+    <div class="center">
+        <h1>Register as Customer</h1>
+        <form method = "post" action="customer_confirm.php">
+            <div class = "txt_field">
+            <input type="text" name="full_name" required >
+            <span></span>
+            <label>Full Name</label>
+            </div>
+            <div class = "txt_field">
+                <input type="text" name="username" required >
+                <span></span>
+                <label>@Username</label>
+                </div>
+            <div class = "txt_field">
+            <input type="email" name="email" required >
+            <span></span>
+            <label>Email</label>
+            </div>
+            <div class = "txt_field">
+                <input type="number" name="phone_number" required >
+                <span></span>
+                <label>Phone Number</label>
+            </div>
+            <div class="txt_field">
+                <textarea name="address" rows="7" cols="40"></textarea>
+                    <label>Address</label>
+            </div>
+            <div class = "txt_field">
+                <input type="password" name="password" required >
+                <span></span>
+                <label>Type password</label>
+                </div>
+                <div class = "txt_field">
+                    <input type="password" name="confirm_password" required >
+                    <span></span>
+                    <label>confirm password</label>
+                    </div>
+        <input type="submit" name= "submit" value = "Sign Up">
+        <div class="signup_link">
+            Already a member? <a href="login_customer.html">Login here</a>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
